@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Globe App",
+  title: "Latency Visualizer",
   description: "Latency visualization",
 };
 
