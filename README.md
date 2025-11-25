@@ -71,7 +71,7 @@ To set up and run the project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)<your-username>/latency-visualizer.git
+    git clone https://github.com/Jitu0809/latency-visualizer.git
     cd latency-visualizer
     ```
 
