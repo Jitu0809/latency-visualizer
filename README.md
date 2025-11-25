@@ -102,3 +102,7 @@ The `HistoryGraph` component allows users to switch between different chronologi
 | **7 Days** | Last 7 days | $\ge$ (Current Time - 7 Days) |
 | **30 Days** | Last 30 days | $\ge$ (Current Time - 30 Days) |
 | **Server Select** | Data only for the chosen exchange (e.g., Binance) or **All Servers**. |
+
+---
+
+# 🚀 [Click Here for Live Demo](https://latency-visualizer-five.vercel.app/)
