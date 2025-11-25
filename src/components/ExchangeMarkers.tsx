@@ -144,8 +144,8 @@ export default function ExchangeMarkers({
             backdropFilter: 'blur(10px)'
           }}>
             {items.map(({ ex, pos, color}) => {
-              const latency = ex.latency_ms ?? 9999;
-              const latencyColor = latency<200?"#00ff00":latency<400?'yellow':'red';
+              const latency = ex.latency_ms ?? 999;
+              const latencyColor = latency<60?"#00ff00":latency<120?'yellow':'red';
 
               return <div key={ex.name} style={{ color: latencyColor }}>
                 <div className="flex justify-between"> 

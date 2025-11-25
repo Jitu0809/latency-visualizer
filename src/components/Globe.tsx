@@ -22,11 +22,11 @@ function LatencyArcs() {
       {servers.data.map((entry, idx) => {
         const startXYZ = latLonToXYZ(userLocation.latitude ?? 0, userLocation.longitude ?? 0, 1.55);
         const endXYZ   = latLonToXYZ(entry.location.lat, entry.location.lon, 1.55);
-        const latency = entry.latency_ms ?? 9999;
+        const latency = entry.latency_ms ?? 999;
 
         const color =
-          latency < 200 ? "#00ff00" :
-          latency < 400 ? "yellow" :
+          latency < 60 ? "#00ff00" :
+          latency < 120 ? "yellow" :
           "red";
 
         return (
